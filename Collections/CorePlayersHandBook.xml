@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+	<!-- Core Rulebooks -->
+	<doc href="../Sources/PlayersHandbook/backgrounds-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/bestiary-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-barbarian-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-bard-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-cleric-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-druid-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-fighter-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-monk-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-paladin-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-ranger-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-rogue-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-sorcerer-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-warlock-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/class-wizard-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/feats-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/items-base-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/items-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/optionalfeatures-phb.xml" /> 
+	<doc href="../Sources/PlayersHandbook/races-phb.xml"/>
+	<doc href="../Sources/PlayersHandbook/spells-phb.xml"/>
+</collection>
+
