@@ -7,18 +7,27 @@
     <xsl:template match="collection">
         <compendium version="5" auto_indent="NO">
             <xsl:variable name="compendium" select="document(doc/@href)/compendium" />
-            
-            <xsl:copy-of select="$compendium/item" />
-            <xsl:copy-of select="$compendium/race" />
-            
-            <xsl:call-template name="classes-with-subclasses" />
-            
-            <xsl:copy-of select="$compendium/feat" />
-            <xsl:copy-of select="$compendium/background" />
-            
-            <xsl:call-template name="spells-extendable" />
-            
-            <xsl:copy-of select="$compendium/monster" />
+            <items>
+                <xsl:copy-of select="$compendium/item" />
+            </items>
+            <races>
+                <xsl:copy-of select="$compendium/race" />
+            </races>
+            <classes>
+                <xsl:call-template name="classes-with-subclasses" />
+            </classes>
+            <feats>
+                <xsl:copy-of select="$compendium/feat" />
+            </feats>
+            <backgrounds>
+                <xsl:copy-of select="$compendium/background" />
+            </backgrounds>
+            <spells>
+                <xsl:call-template name="spells-extendable" />
+            </spells>
+            <monsters>
+                <xsl:copy-of select="$compendium/monster" />
+            </monsters>
         </compendium>
     </xsl:template>
     
